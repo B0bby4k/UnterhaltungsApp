@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Unterhaltung.MainPage">
+
+
+    <Grid RowDefinitions="300,Auto,Auto,Auto">
+        <Frame Grid.Row="0" BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label x:Name="QuestionLabel"
+                   Text="Zieht eine Karte um loszulegen!"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   TextColor="White"
+                   FontSize="36"/>
+            
+        </Frame>
+
+        <Button x:Name="ButtonUns"
+                Grid.Row="1"
+                Clicked="ButtonUns_Clicked"
+                Margin="10,100,10,10"
+                Text="Über Uns"
+                BackgroundColor="Orange">
+        </Button>
+                <Button x:Name="ButtonMich"
+                        Grid.Row="2"
+                Clicked="ButtonMich_Clicked"
+                Margin="10,10,10,10"
+                Text="Über Mich"
+                BackgroundColor="Orange">
+        </Button>
+                <Button x:Name="ButtonDich"
+                        Grid.Row="3"
+                Clicked="ButtonDich_Clicked"
+                Margin="10,10,10,100"
+                Text="Über Dich"
+                BackgroundColor="Orange">
+        </Button>
+
+    </Grid>
+
+
+</ContentPage>
