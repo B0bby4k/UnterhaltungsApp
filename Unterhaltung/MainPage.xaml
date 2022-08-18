@@ -21,7 +21,7 @@
                 Clicked="ButtonUns_Clicked"
                 Margin="10,100,10,10"
                 Text="Über Uns"
-                BackgroundColor="green">
+                BackgroundColor="Orange">
         </Button>
                 <Button x:Name="ButtonMich"
                         Grid.Row="2"
